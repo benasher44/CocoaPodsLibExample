@@ -17,3 +17,30 @@ That last part is important for 2 reasons:
 ## Follow Up
 
 I plan to add a static library example in the near future.
+
+## Env Used for this Project
+
+### Stack
+
+```
+   CocoaPods : 1.2.0.beta.1
+        Ruby : ruby 2.0.0p648 (2015-12-16 revision 53162) [universal.x86_64-darwin16]
+    RubyGems : 2.6.7
+        Host : Mac OS X 10.12.1 (16B2555)
+       Xcode : 8.1 (8B62)
+         Git : git version 2.10.0
+Ruby lib dir : /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib
+Repositories : master - https://github.com/CocoaPods/Specs.git @ 78d4970d3c105876f22675b1c1fed97aad3cdf7c
+```
+
+### Plugins
+
+```
+cocoapods-deintegrate : 1.0.1
+cocoapods-plugins     : 1.0.0
+cocoapods-search      : 1.0.0
+cocoapods-stats       : 1.0.0
+cocoapods-trunk       : 1.1.1
+cocoapods-try         : 1.1.0
+```
+
