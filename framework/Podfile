@@ -1,0 +1,14 @@
+platform :ios, '9.0'
+use_frameworks!
+
+workspace 'SampleApp.xcworkspace'
+
+target 'SampleApp' do
+  project 'SampleApp.xcodeproj'
+  pod 'AFNetworking'
+end
+
+target 'SampleFramework' do
+  project 'SampleFramework/SampleFramework.xcodeproj'
+  pod 'CocoaLumberjack'
+end
