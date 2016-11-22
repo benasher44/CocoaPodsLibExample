@@ -1,5 +1,5 @@
 # CocoaPodsLibExample
-Sample project that shows how to use CocoaPods in a project with an app target and a library target
+Sample project that shows how to use CocoaPods in a project with an app target and a library target. All the project does is the app target calls into a method in the framework target that logs "Test" to the console on app launch.
 
 ## Overview
 
