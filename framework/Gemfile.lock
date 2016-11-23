@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/benasher44/CocoaPods
-  revision: 7e0ad569979df8282945f273382d5e58735a4010
+  revision: fcef7834756a446a9127d80267ba42b251225b61
   branch: basher_fix_cross_project_frameworks
   specs:
     cocoapods (1.2.0.beta.1)
