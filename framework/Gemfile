@@ -1,5 +1,5 @@
 
 source 'https://rubygems.org'
 
-gem 'cocoapods', :git => 'https://github.com/benasher44/CocoaPods', :branch => 'basher_fix_cross_project_frameworks'
+gem 'cocoapods', :git => 'https://github.com/CocoaPods/CocoaPods', :branch => 'master'
 
