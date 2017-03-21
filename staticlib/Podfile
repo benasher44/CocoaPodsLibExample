@@ -1,0 +1,13 @@
+platform :ios, '9.0'
+
+workspace 'SampleApp.xcworkspace'
+
+target 'SampleApp' do
+  project 'SampleApp.xcodeproj'
+  pod 'AFNetworking'
+end
+
+target 'SampleStaticLib' do
+  project 'SampleStaticLib/SampleStaticLib.xcodeproj'
+  pod 'CocoaLumberjack'
+end

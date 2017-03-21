@@ -14,23 +14,19 @@ That last part is important for 2 reasons:
 1. It communicates build order to Xcode: library target must be built for app target to build.
 2. It communicates the app target's dependency on the library target to CocoaPods, so that it can understand which targets need access to which pods.
 
-## Follow Up
-
-I plan to add a static library example in the near future.
-
 ## Env Used for this Project
 
 ### Stack
 
 ```
-   CocoaPods : 1.2.0.beta.1
+   CocoaPods : 1.2.1.beta.1
         Ruby : ruby 2.0.0p648 (2015-12-16 revision 53162) [universal.x86_64-darwin16]
     RubyGems : 2.6.7
-        Host : Mac OS X 10.12.1 (16B2555)
-       Xcode : 8.1 (8B62)
-         Git : git version 2.10.0
+        Host : Mac OS X 10.12.3 (16D32)
+       Xcode : 8.2.1 (8C1002)
+         Git : git version 2.12.0
 Ruby lib dir : /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib
-Repositories : master - https://github.com/CocoaPods/Specs.git @ 78d4970d3c105876f22675b1c1fed97aad3cdf7c
+Repositories : master - https://github.com/CocoaPods/Specs.git @ c39072ed23192f1f280716c52c103084b871fca0
 ```
 
 ### Plugins
@@ -40,7 +36,7 @@ cocoapods-deintegrate : 1.0.1
 cocoapods-plugins     : 1.0.0
 cocoapods-search      : 1.0.0
 cocoapods-stats       : 1.0.0
-cocoapods-trunk       : 1.1.1
+cocoapods-trunk       : 1.1.2
 cocoapods-try         : 1.1.0
 ```
 

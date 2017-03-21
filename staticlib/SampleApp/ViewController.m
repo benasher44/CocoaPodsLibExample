@@ -2,13 +2,13 @@
 //  ViewController.m
 //  SampleApp
 //
-//  Created by Benjamin Asher on 11/21/16.
-//  Copyright © 2016 benasher44. All rights reserved.
+//  Created by Benjamin Asher on 3/17/17.
+//  Copyright © 2017 benasher44. All rights reserved.
 //
 
 #import "ViewController.h"
 
-@import SampleFramework;
+#import <SampleStaticLib/SampleStaticLib.h>
 
 @interface ViewController ()
 
